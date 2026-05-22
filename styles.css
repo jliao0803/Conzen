@@ -1035,6 +1035,10 @@ h3 {
 }
 
 @media (max-width: 680px) {
+  body {
+    font-size: 16px;
+  }
+
   .brand {
     width: 150px;
   }
@@ -1062,8 +1066,56 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(2.65rem, 11vw, 3rem);
+    font-size: clamp(2.45rem, 10vw, 2.85rem);
     line-height: 1.02;
+  }
+
+  h2 {
+    font-size: clamp(2.08rem, 8.8vw, 3rem);
+    line-height: 1.04;
+  }
+
+  .section-heading p,
+  .hero-lede {
+    font-size: 1.08rem;
+  }
+
+  .trilemma h3,
+  .timeline h3,
+  .proof-grid strong,
+  .path-card h3,
+  .risk-grid h3 {
+    font-size: clamp(1.62rem, 6.7vw, 2rem);
+  }
+
+  .trilemma p,
+  .timeline p,
+  .revenue-card p,
+  .team-grid p,
+  .risk-grid p {
+    font-size: 1.06rem;
+  }
+
+  .platform .flow-node,
+  #platform .flow-node {
+    font-size: clamp(1.65rem, 6vw, 1.95rem);
+  }
+
+  .flow-core strong,
+  .compare .comparison-col h3 {
+    font-size: clamp(2.25rem, 8.2vw, 2.75rem);
+  }
+
+  .compare .comparison-col p,
+  .table-row span,
+  .table-row strong,
+  .gtm-strip p {
+    font-size: 1.08rem;
+  }
+
+  .metric-wall strong,
+  .revenue-card strong {
+    font-size: clamp(2.55rem, 10vw, 3.2rem);
   }
 
   .signal-grid,
